@@ -2,11 +2,30 @@
     background-color: blanchedalmond;
     color: black;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section {
-    background-color: palegreen;
-    color:black
+header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar {
+    text-align: right;
+    background-color: blanchedalmond;
+}
+
+.links {
+    display: inline;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+section, p {
+    background-color: rgb(111, 135, 111);
+    color:black;
+    text-align: center;
 }
 
 figure {
@@ -14,10 +33,27 @@ figure {
     height: 300px;
     display: block;
     font-style: italic;
-    background-color: palegreen;
+    background-color: rgb(111, 135, 111);
     margin: 0 auto;
 }
 
 figcaption {
     background-color: palevioletred;
+    display: block;
+}
+
+ul, li, .contactform h2 {
+    background-color: lightsalmon;
+    text-align: left;
+    list-style-type: square;
+}
+.contactform {
+    background-color: lightsalmon;
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    top: 0px;
+    bottom: 0px;
+    padding: 20px;
+    border: 20px double rgb(111, 135, 111);
 }
