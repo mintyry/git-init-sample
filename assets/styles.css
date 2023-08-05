@@ -12,7 +12,7 @@ header {
 
 #navbar {
     text-align: right;
-    background-color: blanchedalmond;
+    background-color: rgb(111, 135, 111);
 }
 
 .links {
@@ -20,6 +20,11 @@ header {
     list-style-type: none;
     font-size: 16px;
     font-weight: bolder;
+    background-color: rgb(111, 135, 111);
+}
+
+.links a {
+    background-color: rgb(111, 135, 111);
 }
 
 section, p {
@@ -56,4 +61,8 @@ ul, li, .contactform h2 {
     bottom: 0px;
     padding: 20px;
     border: 20px double rgb(111, 135, 111);
+}
+
+label {
+    background-color: lightsalmon;
 }
