@@ -13,6 +13,8 @@ After doing all this, I learned how to keep the header fixed on scroll, how to c
 
 Also, I created this repo using git init rather than making it on github first.
 
+Please view the deployed app [here](https://mintyry.github.io/git-init-sample/)!
+
 
 ## Installation
 
