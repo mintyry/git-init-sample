@@ -10,6 +10,10 @@ header {
     top: 0px;
 }
 
+h1 {
+    letter-spacing: 1rem;
+}
+
 #navbar {
     text-align: right;
     background-color: rgb(111, 135, 111);
@@ -39,7 +43,7 @@ figure {
     display: block;
     font-style: italic;
     background-color: rgb(111, 135, 111);
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 figcaption {
@@ -65,4 +69,12 @@ ul, li, .contactform h2 {
 
 label {
     background-color: lightsalmon;
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(111, 135, 111);
+    padding: 60px;
+    margin-top: 20px;
+    font-size: 20px;
 }
